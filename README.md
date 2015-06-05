@@ -9,22 +9,24 @@ The original training file was processed to create the train and test files used
 #File Descriptions
 train.csv : used to create predictive model using Google Prediction API.
 
-columns: outcome - class variable (1 for robot, 0 for human)
-         bidder_id - unique identifier of bidder
-         payment_account - account used to make payments
-         address - origin of bid
+Columns: 
+1. outcome - class variable (1 for robot, 0 for human)
+2. bidder_id - unique identifier of bidder
+3. payment_account - account used to make payments
+4. address - origin of bid
          
 test.csv : used to test the predictive model created using Google Prediction API.
 
-columns: same as those of train.csv
+Columns: same as those of train.csv
 
 example_predictions.csv : sample output after running prediction.py.
 
-columns: predicted_outcome - outcome predicted by prediction model
-         actual_outcome - actual outcome from test file for given row
-         bidder_id - unique identifier of bidder
-         payment_account - account used to make payments
-         address - origin of bid
+Columns: 
+1. predicted_outcome - outcome predicted by prediction model
+2. actual_outcome - actual outcome from test file for given row
+3. bidder_id - unique identifier of bidder
+4. payment_account - account used to make payments
+5. address - origin of bid
 
 client_secrets.json : contains client ID and client secrets used for OAuth authentication with Google API
 
