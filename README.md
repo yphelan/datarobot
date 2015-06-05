@@ -7,16 +7,19 @@ The data for this excercise was acquired from Kaggle (https://www.kaggle.com/c/f
 The original training file was processed to create the train and test files used for this excercise.
 
 #File Descriptions
-train.csv : used to create predictive model using Google Prediction API
+train.csv : used to create predictive model using Google Prediction API.
+
 columns: outcome - class variable (1 for robot, 0 for human)
          bidder_id - unique identifier of bidder
          payment_account - account used to make payments
          address - origin of bid
          
-test.csv : used to test the predictive model created using Google Prediction API
+test.csv : used to test the predictive model created using Google Prediction API.
+
 columns: same as those of train.csv
 
-example_predictions.csv : sample output after running prediction.py
+example_predictions.csv : sample output after running prediction.py.
+
 columns: predicted_outcome - outcome predicted by prediction model
          actual_outcome - actual outcome from test file for given row
          bidder_id - unique identifier of bidder
